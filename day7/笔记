@@ -1,3 +1,6 @@
+python2 默认是ASCII
+python3 默认是utf-8
+
 字符编码
     二进制
         ASCII:只能存英文和拉丁字符，一个字符占一个字节，8位
