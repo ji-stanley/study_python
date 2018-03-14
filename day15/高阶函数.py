@@ -26,6 +26,8 @@ def bar():
     def inner():
         return 8
 
-    return  inner
+    return inner
+
+
 a = bar()
-print(a(),a)
+print(a(), a)
