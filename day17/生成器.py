@@ -16,8 +16,23 @@ s = (x for x in range(5000))
 #     print(i)
 
 
-def foo():
-    yield  1
+# def foo():
+#     yield  1
+#
+# print(foo)
+# print(foo())
+# print(next(foo()))
 
-print(foo)
-print(foo())
+def bar():
+    print("ok")
+    conut = yield 1
+    print(conut)
+    yield  2
+
+c = bar()
+c.send(None) # 第一次前如果没有next，只能传一个send(None)
+print("---------")
+ret = c.send("aaa")
+print("----------")
+print(ret)
+
