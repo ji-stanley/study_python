@@ -1,0 +1,8 @@
+2018-04-04 11:39:25,014 logging_module_two.py [line:24] WARNING logger warning message
+2018-04-04 11:39:25,015 logging_module_two.py [line:25] ERROR logger error message
+2018-04-04 11:39:25,015 logging_module_two.py [line:26] CRITICAL logger critical message
+2018-04-04 11:46:11,587 logging_module_two.py [line:23] DEBUG logger debug message
+2018-04-04 11:46:11,587 logging_module_two.py [line:24] INFO logger info message
+2018-04-04 11:46:11,587 logging_module_two.py [line:25] WARNING logger warning message
+2018-04-04 11:46:11,587 logging_module_two.py [line:26] ERROR logger error message
+2018-04-04 11:46:11,588 logging_module_two.py [line:27] CRITICAL logger critical message

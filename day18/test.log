@@ -1,0 +1,10 @@
+2018-04-04 11:18:18 logging_module.py [line:22] DEBUG debug message
+2018-04-04 11:18:18 logging_module.py [line:23] INFO info message
+2018-04-04 11:18:18 logging_module.py [line:24] WARNING warning message
+2018-04-04 11:18:18 logging_module.py [line:25] ERROR error message
+2018-04-04 11:18:18 logging_module.py [line:26] CRITICAL critical message
+2018-04-04 11:25:09,662 logging_module.py [line:22] DEBUG debug message
+2018-04-04 11:25:09,662 logging_module.py [line:23] INFO info message
+2018-04-04 11:25:09,662 logging_module.py [line:24] WARNING warning message
+2018-04-04 11:25:09,662 logging_module.py [line:25] ERROR error message
+2018-04-04 11:25:09,662 logging_module.py [line:26] CRITICAL critical message
