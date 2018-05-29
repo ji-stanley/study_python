@@ -10,9 +10,9 @@ class Province:
         self.name = name
 
 
-# 静态字段
+# 静态字段：保存在类中，可以通过对象或者类去访问。
 print(Province.country)
 
-# 普通字段
+# 普通字段：保存在对象中，只能通过对象访问。
 henan = Province("河南")
 print(henan.name)
