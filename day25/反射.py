@@ -30,7 +30,7 @@ print(obj.name)
 """
 
 
-import attrtest
+from day25 import attrtest
 
 inp = input(">>>：").strip()
 if hasattr(attrtest,inp):
