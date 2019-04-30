@@ -54,6 +54,7 @@ while True:
             print('client error')
             break
         print(str(data, 'utf-8'))
+        # 在客户端被强行断开的时候，会给服务端发一个空数据。
         if not data:
             print('no data')
             break
