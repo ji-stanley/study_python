@@ -49,12 +49,16 @@ while True:
             result_data = cmd_ret.stdout.read()
             cmd_ret_len = bytes(str(len(result_data)),'utf-8')
             conn.sendall(cmd_ret_len)
+            # 解决粘包
+            conn.recv(1024)
             conn.sendall(result_data)
         else:
             # 测试发现这个数据只能读取一次。
             result_data = cmd_ret.stderr.read()
             cmd_ret_len = bytes(str(len(result_data)), 'utf-8')
             conn.sendall(cmd_ret_len)
+            # 解决粘包
+            conn.recv(1024)
             conn.sendall(result_data)
     conn.close()
 
