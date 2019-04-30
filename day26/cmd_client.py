@@ -23,6 +23,12 @@ while True:
     # print(str(data,'utf-8'))
 
     # 解决数据无法全部接收问题
+    # 多次执行命令也会报错
+    '''
+    ValueError: invalid literal for int() with 
+    base 10: '62cmd_client.py\ncmd_server.py\nsocket_client.py\nsocket_server.py\n'
+
+    '''
     result_len = int(str(sk.recv(1024), 'utf-8'))
     print(type(result_len),result_len)
     data = bytes()
